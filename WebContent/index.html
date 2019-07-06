@@ -1,0 +1,238 @@
+<html>
+	<head>
+		<title>Gerador Android</title>
+		
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link href="css/index.css" rel="stylesheet" media="screen">
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        
+        <script src="js/libs/jquery.js"></script>
+        <script src="js/libs/jquery-ui.min.js"></script>
+        <script src="js/libs/bootstrap.min.js"></script>
+        <script src="js/ValidacaoComponentes.js"></script>
+        <script src="js/ArrastarSoltarComponentes.js"></script>
+        <script src="js/index.js"></script>
+	</head>
+	
+	<body>
+        <div class="container">
+        
+            <div id="divTitulo">
+                <img src="img/android_logo.png" height="128" width="128"/>
+                <p id="titulo">Gerador Android</p>
+            </div>
+            
+            <div id="catalogo">
+                <h3>Componentes</h3>
+                <div class="componente">
+                    <p class="nomeComponente">Toolbar</p>
+                    <img class="imagemComponente" src="img/toolbar.png" alt="Toolbar" height="200" width="400"/>
+                    <div class="conteudoComponente">
+                        <label for="toolbarLargura">
+                            <strong>Width</strong>
+                        </label>
+                        <input type="text" name="toolbarLargura" placeholder="match_parent, wrap_content, 16dp..."/>
+                        <label for="toolbarAltura">
+                            <strong>Height</strong>
+                        </label>
+                        <input type="text" name="toolbarAltura" placeholder="match_parent, wrap_content, 16dp..."/>
+                        <div class="trash">
+                            <img src="img/trash.png" height="48" width="48" />
+                        </div>
+                    </div> 
+                </div>
+                
+                <div class="componente">
+	                <p class="nomeComponente">TextView</p>
+	                <img class="imagemComponente" src="img/textview.png" alt="TextView" height="10" width="50"/>
+	                <div class="conteudoComponente">
+	                    <label for="textviewLargura">
+	                        <strong>Width</strong>
+	                    </label>
+                        <input type="text" name="textviewLargura" placeholder="match_parent, wrap_content, 16dp..."/>
+                        <label for="textviewTexto">
+                            <strong>Text</strong>
+                        </label>
+                        <input type="text" name="textviewTexto" />
+	                    <label for="textviewAltura">
+	                        <strong>Height</strong>
+	                    </label>
+                        <input type="text" name="textviewAltura" placeholder="match_parent, wrap_content, 16dp..."/>
+	                    <div class="trash">
+	                        <img src="img/trash.png" height="48" width="48" />
+	                    </div>
+                    </div> 
+                </div>
+                
+                <div class="componente">
+	                <p class="nomeComponente">EditText</p>
+	                <img class="imagemComponente" src="img/edittext.png" alt="EditText" height="200" width="300"/>
+	                <div class="conteudoComponente">
+                        <label for="edittextLargura">
+                            <strong>Width</strong>
+                        </label>
+                        <input type="text" name="edittextLargura" placeholder="match_parent, wrap_content, 16dp..."/>
+                        <label for="edittextHint">
+                            <strong>Hint</strong>
+                        </label>
+                        <input type="text" name="edittextHint" />
+                        <label for="edittextAltura">
+                            <strong>Height</strong>
+                        </label>
+                        <input type="text" name="edittextAltura" placeholder="match_parent, wrap_content, 16dp..."/>
+	                    <div class="trash">
+	                        <img src="img/trash.png" height="48" width="48" />
+	                    </div>
+                    </div> 
+                </div>
+                
+                <div class="componente">
+	                <p class="nomeComponente">Rectangular Button</p>
+	                <img class="imagemComponente" src="img/rectangular_button.png" alt="Rectangular Button" height="100" width="100"/>
+	                <div class="conteudoComponente">
+                        <label for="rectangularButtonLargura">
+                            <strong>Width</strong>
+                        </label>
+                        <input type="text" name="rectangularButtonLargura" placeholder="match_parent, wrap_content, 16dp..."/>
+                        <label for="rectangularButtonTexto">
+                            <strong>Text</strong>
+                        </label>
+                        <input type="text" name="rectangularButtonTexto" />
+                        <label for="rectangularButtonAltura">
+                            <strong>Height</strong>
+                        </label>
+                        <input type="text" name="rectangularButtonAltura" placeholder="match_parent, wrap_content, 16dp..."/>
+	                    <div class="trash">
+	                        <img src="img/trash.png" height="48" width="48" />
+	                    </div>
+                    </div> 
+                </div>
+                
+	            <div class="componente">
+	                <p class="nomeComponente">Floating Button</p>
+	                <img class="imagemComponente" src="img/fab.png" alt="Floating Action Button" height="48" width="48"/>
+	                <div class="conteudoComponente">
+                        <label for="floatingActionButtonLargura">
+                            <strong>Width</strong>
+                        </label>
+                        <input type="text" name="floatingActionButtonLargura" placeholder="match_parent, wrap_content, 16dp..."/>
+                        <label for="floatingActionButtonAltura">
+                            <strong>Height</strong>
+                        </label>
+                        <input type="text" name="floatingActionButtonAltura" placeholder="match_parent, wrap_content, 16dp..."/>
+                        <div class="trash">
+                            <img src="img/trash.png" height="48" width="48" />
+                        </div>
+	                </div> 
+	            </div>
+	            
+                <div class="componente">
+	                <p class="nomeComponente">RecyclerView</p>
+	                <img class="imagemComponente" src="img/recycler_view.png" alt="RecyclerView" height="150" width="200"/>
+	                <div class="conteudoComponente">
+                        <label for="recyclerViewLargura">
+                            <strong>Width</strong>
+                        </label>
+                        <input type="text" name="recyclerViewLargura" placeholder="match_parent, wrap_content, 16dp..."/>
+                        <label for="recyclerViewAltura">
+                            <strong>Height</strong>
+                        </label>
+                        <input type="text" name="recyclerViewAltura"  placeholder="match_parent, wrap_content, 16dp..."/>
+	                    <div class="trash">
+	                        <img src="img/trash.png" height="48" width="48" />
+	                    </div>
+                    </div> 
+                </div>
+                
+	            <div class="componente">
+	                <p class="nomeComponente">CardView</p>
+	                <img class="imagemComponente" src="img/card.png" alt="CardView" height="100" width="200"/>
+	                <div class="conteudoComponente">
+                        <label for="cardViewLargura">
+                            <strong>Width</strong>
+                        </label>
+                        <input type="text" name="cardViewLargura"  placeholder="match_parent, wrap_content, 16dp..."/>
+                        <label for="cardViewAltura">
+                            <strong>Height</strong>
+                        </label>
+                        <input type="text" name="cardViewAltura" placeholder="match_parent, wrap_content, 16dp..."/>
+	                    <div class="trash">
+	                        <img src="img/trash.png" height="48" width="48" />
+	                    </div>
+	                </div> 
+	            </div>
+	            
+	            <div class="componente">
+	                <p class="nomeComponente">Checkbox</p>
+	                <img class="imagemComponente" src="img/checkbox.png" alt="Checkbox" height="42" width="42"/>
+	                <div class="conteudoComponente">
+                        <label for="checkboxLargura">
+                            <strong>Width</strong>
+                        </label>
+                        <input type="text" name="checkboxLargura" placeholder="match_parent, wrap_content, 16dp..."/>
+                        <label for="checkboxAltura">
+                            <strong>Height</strong>
+                        </label>
+	                    <input type="text" name="checkboxAltura" placeholder="match_parent, wrap_content, 16dp..."/>
+	                    <div class="trash">
+	                        <img src="img/trash.png" height="48" width="48" />
+	                    </div>
+	                </div> 
+	            </div>
+            </div>
+            
+            <form id="formComponentes" action="geradorAndroid">
+                <div id="divForm">
+                    <div id="componentePrincipal">
+                        <h3>Informações</h3>      
+                        <label for="componentePrincipalNome">
+                            <strong>Nome da tela</strong>
+                        </label>
+                        <input type="text" name="componentePrincipalNome" placeholder="Ex: PesquisaProdutos" data-placement="bottom" data-toggle="tooltip" title="Insira o nome da tela no padrão camelCase. Ex: TelaVenda, PesquisaProdutos...">
+                        
+                        <label for="componentePrincipalPacote">
+                            <strong>Pacote</strong>
+                        </label>
+                        <input type="text" name="componentePrincipalPacote" placeholder="Ex: br.com.empresa.app" data-placement="bottom" data-toggle="tooltip">
+                        
+                        <label for="componentePrincipalTipo">
+                            <strong>Layout agrupador</strong>
+                        </label>
+                        <select name="componentePrincipalTipo" id="componentePrincipalTipo">
+                            <option selected="selected">LinearLayout</option>
+                            <option>RelativeLayout</option>
+                        </select>
+                        
+                        <label for="componentePrincipalLargura">
+                            <strong>Width</strong>
+                        </label>
+                        <input type="text" name="componentePrincipalLargura"  placeholder="match_parent, wrap_content, 16dp...">
+                        
+                        <label for="componentePrincipalAltura">
+                            <strong>Height</strong>
+                        </label>
+                        <input type="text" name="componentePrincipalAltura" placeholder="match_parent, wrap_content, 16dp">
+                        
+                        <label for="componentePrincipalOrientacao">
+                            <strong>Orientation</strong>
+                        </label>
+                        <select name="componentePrincipalOrientacao" id="componentePrincipalOrientacao">
+                            <option selected="selected">vertical</option>
+                            <option>horizontal</option>
+                        </select>
+                        <br/>
+                        <input type="button" id="botaoGerar" value="Gerar" class="btn btn-primary btn-large">
+                    </div>
+                    <div id="componentesAdicionados">
+                        <div id="divEmptyView">
+                            <img src="img/drag.png" height="64" width="64"/>
+                            <p id="pEmptyView">Arraste os componentes aqui</p>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    <body>
+</html>

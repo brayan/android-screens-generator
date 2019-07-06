@@ -1,0 +1,107 @@
+body {
+    padding: 25px 50px;
+}
+
+.componente {
+    border-radius: 15px;
+    border: 2px solid #448AFF;
+    height: 80px;
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    float: left;
+    background: #FFFFFF;
+    text-align: center;
+}
+
+.componenteAdicionado {
+    border-radius: 15px;
+    border: 2px solid #FFC107;
+    height: 80px;
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 8px;
+    float: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFFFF;
+}
+
+.nomeComponente {
+    color: #4692ca;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.trash {
+    height: 64px;
+    width: 64px;
+    float: right;
+}
+
+.imagemComponente {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divAtributo {
+	margin-bottom: 8px;
+}
+
+#divTitulo {
+	margin-bottom: 80px;
+	text-align: left;
+	padding: 8px;
+}
+
+#titulo {
+	display:inline-block;
+	font-size: 5em;
+    vertical-align: middle;
+}
+
+#catalogo {
+    width: 928px;
+    height: 340px;
+    margin-bottom: 18px;
+    border-radius: 25px;
+    border: 2px solid #8AC007;
+    padding: 16px;
+}
+
+#componentePrincipal {
+	padding: 16px;
+	width: 400px;
+	margin-bottom: 20px;
+	float: left;
+	margin-right: 20px;
+	border-radius: 25px;
+    border: 2px solid #8AC007;
+}
+
+#divForm {
+	white-space: nowrap;
+	width: 1000px;
+	overflow: hidden;
+}
+
+#componentesAdicionados {
+    border-radius: 25px;
+    border: 2px solid #8AC007;
+    min-height: 100px;
+    width: 470px;
+    padding: 16px;
+    overflow: hidden;
+}
+
+#divEmptyView {
+	text-align: center;
+}
+
+#pEmptyView {
+	font-size: 2em;
+	color: #9E9E9E;
+}
